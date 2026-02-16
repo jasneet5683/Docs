@@ -4,6 +4,7 @@ fastapi
 uvicorn[standard]
 openai
 python-dotenv
+pypdf2
 # Add these for document processing later:
 # langchain # For orchestration
 # tiktoken  # For token counting with OpenAI
