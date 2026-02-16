@@ -1,0 +1,11 @@
+# cmp_document_chat/backend/requirements.txt
+
+fastapi
+uvicorn[standard]
+openai
+python-dotenv
+# Add these for document processing later:
+# langchain # For orchestration
+# tiktoken  # For token counting with OpenAI
+# chromadb  # Example vector database
+# markdown  # To read markdown files
